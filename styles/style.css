@@ -11,7 +11,7 @@
 .left {
   left: 0;
   background-image: url('../images/background1.jpg');
-  display: flex;
+  /*display: flex;*/
 }
 
 .right {
@@ -29,7 +29,15 @@
 
 .centered_login{
   position: absolute;
-  top: 25%;
+  text-align: center;
+  float: center;
+  padding: 70px 0px 90px 170px;
+}
+
+
+.centered_sign_up{
+  position: absolute;
+  top: 7.5%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -46,19 +54,38 @@ input[type=text], input[type=password] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #424242;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 30%;
+    width: 25%;
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    border-radius: 5px;
 
+}
+
+
+.sign_up {
+
+    background-color: #424242;
+    color: white;
+    padding: 14px 20px;
+    margin: 90px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
 }
 
 
@@ -69,6 +96,18 @@ button {
     border: none;
     position: absolute;
     top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.have_account {
+    color: black;
+    padding: 14px 20px;
+    margin: 95px 0px;
+    border: none;
+    position: absolute;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -87,6 +126,7 @@ button:hover {
 label{
    float: left;
    padding-top: 16px;
+   font-size: 15px;
 }
 
 .remember{
@@ -104,3 +144,5 @@ label{
        width: 100%;
     }
 }
+
+ 
