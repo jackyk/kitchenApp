@@ -1,0 +1,72 @@
+
+
+h2{ 
+    padding:0px;
+    margin:0px;
+    /* margin-top:20px; */
+    /*background-color: #666666; */
+    text-align: center   
+}
+.dash-menu ul{
+    list-style-type: none;
+    margin: auto;
+    margin-left: 0.2vw; 
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ccc;
+    font-size: 16px;
+    padding: 7px;
+
+}
+ul li{
+    margin: 38px;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.containerReviews{
+    width:85%; 
+    position: relative; 
+    background-color:rgb(116, 154, 238);
+    float: right;
+}
+.top-right{
+    float:right;
+    margin-right:2vw;
+    display: inline-flex;
+    /* justify-content: 20; */
+    align-items: center;
+    
+    }
+.reviews-board{
+    margin-top: 40px;
+    float: none;
+    margin-left:10vw;
+}
+.reviews-board h1{
+    margin-left: 22px;
+
+}
+.stats{
+    float: left;
+    display: inline-flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* background-color: #fff; */
+
+}
+.statistics_food{
+    margin-top: 200px;
+    margin-left: 30px;
+    float: none;
+    /* width:100%;     */
+}
+.statistics_user{
+    margin-top: 40px;
+    margin-left: 30px;
+    float: none;
+    /* width:100%;     */
+    /* float:none; */
+}
