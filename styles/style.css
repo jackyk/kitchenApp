@@ -11,15 +11,15 @@
 .left {
   left: 0;
   background-image: url('../images/background1.jpg');
-<<<<<<< HEAD
+/* <<<<<<< HEAD */
   /*display: flex;*/
-=======
+/* ======= */
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-cover:cover;
   background-size: cover; 
   display: flex;
->>>>>>> b6fd077c18c77179a1dc92fcbca1a2a682da45b6
+/* >>>>>>> b6fd077c18c77179a1dc92fcbca1a2a682da45b6 */
 }
 
 .right {
@@ -152,9 +152,10 @@ label{
        width: 100%;
     }
 }
-<<<<<<< HEAD
+/* <<<<<<< HEAD
 
  
+<<<<<<< HEAD
 =======
 /********** Dashboard Reviews************* */
 .container{
@@ -300,3 +301,6 @@ p{
   display: flex;
 flex-wrap: wrap;
 }
+=======
+======= */
+>>>>>>> 7fe1d6bc37b0425fa44aab1550f121bf05cd10f3
