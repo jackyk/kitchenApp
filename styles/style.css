@@ -210,15 +210,18 @@ ul li a{
     align-items: center;
     
     }
+
 .reviews-board{
     margin-top: 40px;
     float: none;
     margin-left:10vw;
 }
+
 .reviews-board h1{
     margin-left: 22px;
 
 }
+
 .stats{
     float: left;
     display: inline-flex;
@@ -233,6 +236,7 @@ ul li a{
     float: none;
     /* width:100%;     */
 }
+
 .statistics_user{
     margin-top: 40px;
     margin-left: 30px;
@@ -241,3 +245,58 @@ ul li a{
     /* float:none; */
 }
 >>>>>>> b6fd077c18c77179a1dc92fcbca1a2a682da45b6
+
+button.add_cust {
+
+   /* background-color: #424242;*/
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.card{
+width: 350px;
+border: 1px solid gray;
+box-shadow: 1px 1px 3px #888;
+border-top: 10px solid green;
+min-height: 250px;
+padding-: 10px;
+margin: 10px;
+}
+
+img{
+  border-radius: 50%;
+  width: 70px;
+  margin: 10px;
+}
+
+h1{
+  font-weight: lighter;
+  margin-left: 100px;
+  margin-top: -70px;
+}
+
+p{
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+#mainbox{
+  font-family: calibri;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+flex-wrap: wrap;
+}
