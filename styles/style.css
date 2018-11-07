@@ -152,11 +152,6 @@ label{
        width: 100%;
     }
 }
-/* <<<<<<< HEAD
-
- 
-<<<<<<< HEAD
-=======
 /********** Dashboard Reviews************* */
 .container{
     padding: 0px;
@@ -245,7 +240,7 @@ ul li a{
     /* width:100%;     */
     /* float:none; */
 }
->>>>>>> b6fd077c18c77179a1dc92fcbca1a2a682da45b6
+/* >>>>>>> b6fd077c18c77179a1dc92fcbca1a2a682da45b6 */
 
 button.add_cust {
 
@@ -301,6 +296,3 @@ p{
   display: flex;
 flex-wrap: wrap;
 }
-=======
-======= */
->>>>>>> 7fe1d6bc37b0425fa44aab1550f121bf05cd10f3
