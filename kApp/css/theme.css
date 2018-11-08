@@ -3633,7 +3633,7 @@ section {
 }
 
 .au-message__item.unread .au-message__item-inner {
-    border-left: 3px solid #999;
+   /* border-left: 3px solid #999;*/
 }
 
 .au-message__item.unread .au-message__item-text .text .name {
