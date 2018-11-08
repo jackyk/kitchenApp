@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Customers</title>
+    <title>Dashboard</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -32,6 +32,7 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="styles/style.css">
 
 </head>
 
@@ -44,10 +45,10 @@
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
                             <h1>Tom Tom</h1>
-                        </a>
+                            </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
-                              <span class="hamburger-inner"></span>
+                                <span class="hamburger-inner"></span>
                             </span>
                         </button>
                     </div>
@@ -55,51 +56,51 @@
             </div>
             <nav class="navbar-mobile">
                 <div class="container-fluid">
-                        <ul class="navbar-mobile__list list-unstyled">
+                    <ul class="navbar-mobile__list list-unstyled">
+                         <li class="active">
+                            <a href="index.html">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+                        <li >
+                            <a href="createmenu.html">
+                                <i class="fas fa-shopping-basket"></i>Create Menu</a>
+                        </li>
+                       <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="zmdi zmdi-account"></i>Users</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="index.html">Admin</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">Kitchen Staff</a>
+                                </li>
                                 <li class="active">
-                                   <a href="index.html">
-                                       <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                               </li>
-                               <li >
-                                   <a href="createmenu.html">
-                                       <i class="fas fa-shopping-basket"></i>Create Menu</a>
-                               </li>
-                              <li class="has-sub">
-                                   <a class="js-arrow" href="#">
-                                       <i class="zmdi zmdi-account"></i>Users</a>
-                                   <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                       <li>
-                                           <a href="index.html">Admin</a>
-                                       </li>
-                                       <li>
-                                           <a href="index2.html">Kitchen Staff</a>
-                                       </li>
-                                       <li>
-                                           <a href="index2.html">Customers</a>
-                                       </li>
-                                   </ul>
-                               </li>
-                               <li>
-                                   <a href="form.html">
-                                       <i class="zmdi zmdi-money-box"></i>Invoices</a>
-                               </li>
-       
-                               <li>
-                                   <a href="form.html">
-                                       <i class="far fa-check-square"></i>Notifications</a>
-                               </li>
-                              
-                               <li>
-                                   <a href="map.html">
-                                       <i class="fas fa-map-marker-alt"></i>Help Center</a>
-                               </li>
-       
-                               <li>
-                                   <a href="map.html">
-                                       <i class="zmdi zmdi-settings"></i>Setting</a>
-                               </li>
-                               
-                           </ul>
+                                    <a href="customers.html">Customers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="form.html">
+                                <i class="zmdi zmdi-money-box"></i>Invoices</a>
+                        </li>
+
+                        <li>
+                            <a href="form.html">
+                                <i class="far fa-check-square"></i>Notifications</a>
+                        </li>
+                       
+                        <li>
+                            <a href="map.html">
+                                <i class="fas fa-map-marker-alt"></i>Help Center</a>
+                        </li>
+
+                        <li>
+                            <a href="map.html">
+                                <i class="zmdi zmdi-settings"></i>Setting</a>
+                        </li>
+                        
+                    </ul>
                 </nav>
         </header>
         <!-- END HEADER MOBILE-->
@@ -120,9 +121,9 @@
                         </li>
                         <li >
                             <a href="createmenu.html">
-                                <i class="fas fa-shopping-basket"></i>Create Menu</a>
+                                <i class="fas fa-shopping-basket"></i>Menu</a>
                         </li>
-                       <li class="has-sub">
+                       <li class="has-sub active">
                             <a class="js-arrow" href="#">
                                 <i class="zmdi zmdi-account"></i>Users</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
@@ -133,7 +134,7 @@
                                     <a href="index2.html">Kitchen Staff</a>
                                 </li>
                                 <li class="active">
-                                    <a href="index2.html">Customers</a>
+                                    <a href="customer.html">Customers</a>
                                 </li>
                             </ul>
                         </li>
@@ -171,7 +172,7 @@
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for Customers &amp; Kitchen staff..." />
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -301,93 +302,226 @@
             <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
-            <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="overview-wrap">
-                                    <h2 class="title-1">overview</h2>
-                                    <button class="au-btn au-btn-icon au-btn--blue">
-                                        <i class="zmdi zmdi-plus"></i>add User</button>
+    <div class="main-content">
+        <div class="section__content section__content--p30">
+            <div class="container-fluid">
+                
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="au-message__item-inner">
+                                <button type="button" class="btn btn-danger">+ Admin</button>
+                                <button type="button" class="btn btn-danger">+ Kitchen Staff</button>
+                                <button type="button" class="btn btn-danger">+ Customer</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                             <div class="au-message__item-inner">
+                                <div class="au-message__item-text">
+                                </div>
+                                <form class="form-header" action="" method="POST">
+                                        <input class="au-input" type="text" name="search" placeholder="Search." />
+                                        <button class="au-btn--submit" type="submit">
+                                            <i class="zmdi zmdi-search"></i>
+                                        </button>
+                                </form>
+    
+                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <!-- LEFT BLOCK -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                    <div class="au-message__item unread">
+                                            <div class="au-message__item-inner">
+                                                <div class="au-message__item-text">
+                                                    <div class="avatar-wrap">
+                                                        <div class="avatar">
+                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5 class="name">John Smith</h5>
+                                                        <p>Have sent a photo</p>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-danger">Un Approved</button>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                        <!-- /# card -->
+
+                        <div class="card">
+                            <div class="card-header">
+                                    <div class="au-message__item unread">
+                                            <div class="au-message__item-inner">
+                                                <div class="au-message__item-text">
+                                                    <div class="avatar-wrap">
+                                                        <div class="avatar">
+                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5 class="name">John Smith</h5>
+                                                        <p>Have sent a photo</p>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <button type="button" class="btn btn-success">Approved</button> 
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                        <!-- /# card -->
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                    <div class="au-message__item unread">
+                                            <div class="au-message__item-inner">
+                                                <div class="au-message__item-text">
+                                                    <div class="avatar-wrap">
+                                                        <div class="avatar">
+                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5 class="name">John Smith</h5>
+                                                        <p>Have sent a photo</p>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-success">Approved</button>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                        <!-- /# card -->
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                    <div class="au-message__item unread">
+                                            <div class="au-message__item-inner">
+                                                <div class="au-message__item-text">
+                                                    <div class="avatar-wrap">
+                                                        <div class="avatar">
+                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5 class="name">John Smith</h5>
+                                                        <p>Have sent a photo</p>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-success">Approved</button>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                        <!-- /# card -->
+                        
+                        
+                    </div>
+                    <!-- END LEFT BLOCK -->
+
+                    <!-- RIGHT BLOCK -->
+                    <div class="col-md-6">
+                                      
+                     <div class="card">
+                            <div class="card-header">       
+                                <div class="au-message__item unread">
+                                    <div class="au-message__item-inner">
+                                        <div class="au-message__item-text">
+                                            <div class="avatar-wrap">
+                                                <div class="avatar">
+                                                    <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                </div>
+                                            </div>
+                                            <div class="text">
+                                                <h5 class="name">John Smith</h5>
+                                                <p>Have sent a photo</p>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn-danger">Un Approved</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row m-t-25">
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="overview-item overview-item--c1">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-account-o"></i>
+                        <!-- /# card -->
+
+                        <div class="card">
+                            <div class="card-header">      
+                                    <div class="au-message__item unread">
+                                    <div class="au-message__item-inner">
+                                        <div class="au-message__item-text">
+                                            <div class="avatar-wrap">
+                                                <div class="avatar">
+                                                    <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                </div>
                                             </div>
                                             <div class="text">
-                                                <h2>110</h2>
-                                                <span>Customers</span>
+                                                <h5 class="name">John Smith</h5>
+                                                <p>Have sent a photo</p>
                                             </div>
                                         </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart1"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="overview-item overview-item--c2">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-shopping-cart"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>388,12</h2>
-                                                <span>Meal served</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart2"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="col-sm-6 col-lg-3">
-                                <div class="overview-item overview-item--c3">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-calendar-note"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>1,086</h2>
-                                                <span>this week</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart3"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="col-sm-6 col-lg-4">
-                                <div class="overview-item overview-item--c3">
-                                    <div class="overview__inner">
-                                        <div class="overview-box clearfix">
-                                            <div class="icon">
-                                                <i class="zmdi zmdi-money"></i>
-                                            </div>
-                                            <div class="text">
-                                                <h2>$1,060,386</h2>
-                                                <span>total budget</span>
-                                            </div>
-                                        </div>
-                                        <div class="overview-chart">
-                                            <canvas id="widgetChart3"></canvas>
-                                        </div>
+                                        <button type="button" class="btn btn-danger">Un Approved</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- /# card -->
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                    <div class="au-message__item unread">
+                                            <div class="au-message__item-inner">
+                                                <div class="au-message__item-text">
+                                                    <div class="avatar-wrap">
+                                                        <div class="avatar">
+                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5 class="name">John Smith</h5>
+                                                        <p>Have sent a photo</p>
+                                                    </div>
+                                                </div>
+                                               <button type="button" class="btn btn-success">Approved</button>
+                                            </div>
+                                        </div>
+                            </div>
                         </div>
+                        <!-- /# card -->
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                    <div class="au-message__item unread">
+                                            <div class="au-message__item-inner">
+                                                <div class="au-message__item-text">
+                                                    <div class="avatar-wrap">
+                                                        <div class="avatar">
+                                                            <img src="images/icon/avatar-02.jpg" alt="John Smith">
+                                                        </div>
+                                                    </div>
+                                                    <div class="text">
+                                                        <h5 class="name">John Smith</h5>
+                                                        <p>Have sent a photo</p>
+                                                    </div>
+                                                </div>
+                                                <button type="button" class="btn btn-success">Approved</button>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- END RIGHT BLOCK -->
+
+                    </div>
                     </div>
                 </div>
             </div>
